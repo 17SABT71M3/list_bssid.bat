@@ -1,3 +1,6 @@
-Automatically Sorts by signal strength (stronger first), and groups by SSID (hidden is also grouped together) (groups do not sort by signal strength. may be fixed in a future update.)
-`netsh` which this script uses, can sometimes not list the networks properly when connected  ; (<br>
-you might need to disconnect for better response 
+#### List WiFi Networks by BSSID only
+
+> [!NOTE]
+> + Automatically Sorts by signal strength (stronger first)
+> + Groups BSSIDs if `netsh` groups them (usually same SSID or hidden but there can be exceptions)
+> + Might not list properly unless disconnected (`netsh` behaviour to note)
