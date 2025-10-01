@@ -8,7 +8,7 @@ Sample output
 #### List WiFi Networks by BSSID only
 
 > [!NOTE]
-> + Automatically Sorts by signal strength (stronger first)
-> + Groups 'similar' BSSIDs together on the same line, according to the `netsh` output (`netsh` usually groups by SSID or hidden networks but there could be exceptions)
+> + Automatically Sort by signal strength (stronger first)
+> + Groups 'similar' BSSIDs together on the same line, according to the `netsh` output (`netsh` usually groups by same SSID. it also groups hidden networks together with exceptions, like when already connected to a network)
 > + Sort by Signal strength does not apply to Grouped BSSIDs (only the first)
-> + Might not list properly unless disconnected (`netsh` behaviour)
+> + Might not list networks properly unless disconnected from current network(`netsh` behaviour)
