@@ -10,5 +10,5 @@ Sample output
 > [!NOTE]
 > + Automatically Sort by signal strength (stronger first)
 > + Groups 'similar' BSSIDs together on the same line, according to the `netsh` output (`netsh` usually groups by same SSID. it also groups hidden networks together with exceptions, like when already connected to a network)
-> + Sort by Signal strength does not apply to Grouped BSSIDs (only the first)
+> + Sort by Signal strength does not apply to Grouped BSSIDs (only the first in that group)
 > + Might not list networks properly unless disconnected from current network(`netsh` behaviour)
